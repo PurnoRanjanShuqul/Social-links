@@ -29,7 +29,7 @@ Responsive design basics
 Author
 ## Live Demo
 
-🔗 [https://purno123.github.io/social-links-profile/](https://purnoranjanshuqul.github.io/Social-links/)
+🔗 [Social Links Page](https://purnoranjanshuqul.github.io/Social-links/)
 
 Purno Runjun Shqul
 Front-end Developer from Kumarkhali, Kushtia
