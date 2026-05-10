@@ -28,6 +28,8 @@ Button styling
 Responsive design basics
 Author
 ## Live Demo
-(https://purnoranjanshuqul.github.io/Social-links/)
+
+🔗 [https://purno123.github.io/social-links-profile/](https://purnoranjanshuqul.github.io/Social-links/)
+
 Purno Runjun Shqul
 Front-end Developer from Kumarkhali, Kushtia
