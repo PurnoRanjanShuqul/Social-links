@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #141414;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  width: 100%;
+  max-width: 380px;
+  background-color: #1F1F1F;
+  border-radius: 20px;
+  padding: 40px;
+
+}
+
+.img {
+  margin-bottom: 20px;
+
+  min-height: 90px;
+  min-width: 90px;
+  border-radius: 50%;
+  background-image: url(images/cropped_circle_image.png);
+  background-size: cover;
+
+}
+
+.loaction p {
+  color: #c4f82a;
+  margin-bottom: 20px;
+}
+
+.name {
+  margin-bottom: 5px;
+}
+
+.description p {
+  margin-bottom: 25px;
+  color: #aaaaaa;
+}
+
+
+a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bolder;
+  background-color: #333333;
+  margin-bottom: 25px;
+  padding: 10px 30px;
+  text-align: center;
+  border-radius: 10px;
+  transition: all 300ms;
+  cursor: pointer;
+  display: block;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+a:hover {
+  background-color: #c4f82a;
+  color: #000000;
+  transform: scale(1.1);
+
+}
+
+@media (max-width: 600px)
+{
+  .box {
+    border-radius: 0px;
+    max-width: 100vh;
+    min-height: 100vh;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
